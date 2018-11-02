@@ -3,7 +3,10 @@ import javax.swing.JOptionPane;
 public class TesteEstagio {
     
     public static void main(String[] args){
+        //casos de teste
+        imprimeLetra("abcde");
         imprimeLetra("aakkce");
+        imprimeLetra("aabcde");
     }
     
     public static void imprimeLetra(String palavra){
